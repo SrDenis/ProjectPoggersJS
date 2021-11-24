@@ -3,4 +3,4 @@ Personal Discord bot made in Python, inspired by Mudae Bot.
 
 ## Configuração
 
-Coloque em um arquivo .env: `TOKEN, clientId, guildId`
+Coloque em um arquivo .env: `TOKEN, clientId, guildId, albumChannelId, badAlbumChannelId`
