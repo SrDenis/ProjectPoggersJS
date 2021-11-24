@@ -1,3 +1,5 @@
+/*eslint-env node*/
+
 const { Client, Intents, Collection } = require('discord.js');
 require('dotenv').config();
 
