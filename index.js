@@ -1,7 +1,7 @@
 /*eslint-env node*/
 
 const { Client, Intents, Collection } = require('discord.js');
-require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') require('dotenv').config();
 
 
 // New client
